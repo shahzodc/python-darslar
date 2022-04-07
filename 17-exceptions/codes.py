@@ -9,7 +9,6 @@
 #     print("Butun son kiritmadingiz")
 # print("Dastur tugadi")
 
-
 # # try-except-else
 # yosh = input("Yoshingizni kiriting: ")
 # try:
@@ -18,7 +17,6 @@
 #     print("Butun son kiritmadingiz")
 # else:
 #     print(f"Siz {2021-yosh}-yilda tug'ilgansiz")
-
 
 # # MA'LUM TURDAGI XATOLARNI USHLASH
 # yosh = input("Yoshingizni kiriting: ")
@@ -29,7 +27,6 @@
 # else:
 #     print(f"Siz {2021-yosh}-yilda tug'ilgansiz")
     
-    
 # # ZeroDivisionError
 # x,y=5,10
 # try:
@@ -37,14 +34,12 @@
 # except ZeroDivisionError: # 0 ga bo'lish xatoligi
 #     print("0 ga bo'lib bo'lmaydi")
     
-    
 # # IndexError
 # mevalar = ['olma','anor','anjir','uzum']
 # try:
 #     print(mevalar[5])
 # except IndexError:
 #     print(f"Ro'yxatda {len(mevalar)} ta mevalar bor xolos")
-
 
 # # KeyError
 # user = {"username":"sariqdev",
@@ -56,7 +51,6 @@
 #     print(f"Foydalanuvchi: {user[key]}")
 # except KeyError:
 #     print("Bunday kalit mavjud emas")
-    
 
 # # FileNotFoundError
 # fayl = "data.txt" # bunday fayl mavjud emas
@@ -64,7 +58,6 @@
 #     f = open(fayl)
 # except FileNotFoundError:
 #     print(f"{fayl} fayli mavjud emas.")
-
 
 # # BIR NECHTA XATOLARNI USHLASH
 # n = input("Butun son kiriting: ")
@@ -77,7 +70,6 @@
 #     print("0 ga bo'lib bo'lmaydi")
 # else:
 #     print(f"x={x}")   
-
 
 # # XATOLARNI KO'RSATMAY O'TISH
 # user = {"username":"sariqdev",
@@ -97,7 +89,6 @@
 # else:
 #     pass
 
-
 # # XATOLARNING OLDINI OLISH
 # # try-except 
 # yosh = input("Yoshingizni kiriting: ")
@@ -107,7 +98,6 @@
 # except: # xato yuz berganda bajariluvchi kod
 #     print("Butun son kiritmadingiz")
     
-
 # # if-else-while
 # while True:
 #     yosh = input("Yoshingizni kiriting: ")

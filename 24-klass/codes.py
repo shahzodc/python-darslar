@@ -9,7 +9,6 @@ def salom_ber():
     print("Assalomu alaykum")
 print(type(salom_ber))
 
-
 # METODLAR
 matn = "salom"
 print(matn.upper())
@@ -30,12 +29,10 @@ class Talaba:
 # KLASSDAN OBYEKT YARATISH
 talaba1  = Talaba("Alijon","Valiyev",2000)
 
-
 # OBYEKTNING XUSUSIYATLARINI KO'RISH
 print(talaba1.ism)
 print(talaba1.familiya)
 print(talaba1.tyil)
-
 
 # KLASSDAN BIR NECHTA OBYEKTLAR YARATISH
 talaba2 = Talaba('Shahzod','Rahimberdiyev',1998)
@@ -43,7 +40,6 @@ talaba3 = Talaba('Olim','Akbarov',2004)
 talaba4 = Talaba('Hasan','Akbarov',2002)
 print(talaba2.ism)
 print(talaba4.familiya) 
-
 
 # KLASSGA METODLAR QO'SHAMIZ
 class Talaba:
@@ -83,7 +79,6 @@ print(talaba5.get_name())
 print(talaba5.get_lastname())
 print(talaba5.get_fullname())
 print(talaba5.get_age(2021))
-
 
 # PASS OPERATORI
 class User:

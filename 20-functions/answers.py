@@ -9,7 +9,6 @@ ismlar = ['ali','vali','hasan','husan']
 katta_harf(ismlar)
 print(ismlar)
 
-
 #2
 def katta_harf(matnlar):
     matnlar = matnlar[:]
@@ -21,7 +20,6 @@ ismlar = ['ali','vali','hasan','husan']
 yangi_ismlar = katta_harf(ismlar)
 print(ismlar)
 print(yangi_ismlar)
-
 
 #3
 def bahola(ismlar):

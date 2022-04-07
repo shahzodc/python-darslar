@@ -22,7 +22,6 @@
 #     f"\nYoshi: {shaxs['yosh']} da"
 #     f"\nTel raqami: {tel}")
     
-    
 # #2
 # def malumot_ber(ism, familiya, t_yil, yosh, tel=None):
 #     malumotlar = {'ism':ism,
@@ -57,7 +56,6 @@
 #           f"\nYoshi: {mijoz['yosh']} da"
 #           f"\nTel raqami: {tel}")
 
-
 # #3
 # def son_kirit(son1,son2,son3):
 #         son = son1
@@ -69,7 +67,6 @@
 
 # print(son_kirit(19,18,20))
 
-
 # #4
 # def aylana_info(radius, pi=3.14159):
 #     aylana = {"radius":radius,
@@ -79,7 +76,6 @@
 #     return aylana
 
 # print(aylana_info(4))
-
 
 # #5
 # def tub_sonlar(min,max):
@@ -100,7 +96,6 @@
 #     return tub_sonlar
 
 # print(tub_sonlar(3,90))
-
 
 # #6
 # def fibonacci(n):

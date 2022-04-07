@@ -9,7 +9,6 @@ talaba2 = toliq_ism('shalola',"yo'ldoshboyeva")
 
 print(f"Darsga kelmagan talabalar: {talaba1.title()} va {talaba2.title()}")
 
-
 # IXTIYORIY ARGUMENTLAR
 def toliq_ism(ism, familiya, otasining_ismi=''):
     """To'liq ism qaytaruvchi funksiya"""
@@ -22,7 +21,6 @@ def toliq_ism(ism, familiya, otasining_ismi=''):
 talaba1 = toliq_ism('shahzod','rahimberdiyev')
 talaba2 = toliq_ism('hakim','olim','abrorovich')
 print(f"Darsga kelmagan talabalar: {talaba1} va {talaba2}")
-
 
 # FUNKSIYADAN LUG'AT QAYTARISH
 def avto_info(kompaniya, model, rangi, korobka, yili, narxi=None):
@@ -45,7 +43,6 @@ for avto in avtolar:
         narx = "No'malum"
     print(f"{avto['rang']} {avto['model']}. Narxi: {narx}")
 
-
 # FUNKSIYADAN RO'YXAT QAYTARAMIZ
 
 def oraliq(min, max):
@@ -57,8 +54,6 @@ def oraliq(min, max):
 
 print(oraliq(0,10))
 print(oraliq(10,21))
-
-
 
 # FUNKSIYALARNI SIKLDA ISHLATISH
 def avto_info(kompaniya, model, rangi, korobka, yili, narxi=None):
@@ -84,7 +79,6 @@ while True:
     # lug'at shakllantirib, ro'yxatga qo'shamiz:
     avtolar.append(avto_info(kompaniya, model, rangi, \
                               korobka, yili, narxi))
-        
         # Yana avto qo'shish-qo'shmaslikni so'raymiz
     javob = input("Yana avto qo'shasizmi? (yes/no): ")
     if javob=='no':

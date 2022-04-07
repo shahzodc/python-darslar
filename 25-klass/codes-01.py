@@ -27,14 +27,12 @@ class Talaba:
 # talaba1 = Talaba('Alijon','Valiyev',2000)
 # print(talaba1.get_info())
 
-
 # # STANDART QIYMATNI O'ZGARTIRISH
 # talaba1.bosqich = 2
 # talaba1.set_bosqich(3)
 # print(talaba1.get_info())
 # talaba1.update_bosqich()
 # print(talaba1.get_info())
-
 
 # OBYEKTLAR O'RTASIDA MUNOSABAT
 class Fan():

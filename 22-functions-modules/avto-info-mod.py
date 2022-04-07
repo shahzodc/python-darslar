@@ -9,7 +9,6 @@ def avto_info(kompaniya, model, rangi, korobka, yili, narxi=None):
             'narx':narxi}
     return avto
 
-
 def avto_kirit():
     """Foydalanuvchiga avto_info funksiyasi yordamida
     bir nechta avtolar haqida ma'lumotlarni bitta
@@ -30,7 +29,6 @@ def avto_kirit():
         if javob=='no':
             break
     return avtolar 
-    
 
 def info_print(avto_info):
     """Avtomobillar haqida ma'lumotlar

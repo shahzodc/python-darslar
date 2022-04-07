@@ -16,7 +16,6 @@ print("\nFoydalanuvchilarning telefonlari:\n")
 for lugat in set(python.values()):
     print(lugat)
     
-    
 #2
 countries = {'uzbekistan':'tashkent',
               'russia':'moscow',
@@ -32,7 +31,6 @@ print("\nPoytaxtlar ro'yxati:")
 for country in countries.values(): # qiymatlarni chiqaramiz
     print(country.title())
     
-    
 #3
 countries = {'uzbekistan':'tashkent',
               'rossiya':'moscow',
@@ -47,7 +45,6 @@ if capital==None:
 else:
     print(f"\n{country.title()}ning poytaxti \
 {capital.title()} shahri")
-
 
 #4
 menyu = {'osh':15000,

@@ -34,7 +34,6 @@ class Avto:
 # print(avto1)
 # print(avto1==avto2)
 
-
 # OBYEKTNING UZUNLIGI
 class AvtoSalon:
     """Avtosalon klassi"""
@@ -53,8 +52,7 @@ class AvtoSalon:
             
     def __len__(self):
         return len(self.avtolar)
-    
-                      
+                   
 salon1 = AvtoSalon("\nMaxAvto")
 
 avto1 = Avto("GM","Malibu","Qora",2020,40000)

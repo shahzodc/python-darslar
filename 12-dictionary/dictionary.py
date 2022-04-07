@@ -15,7 +15,6 @@ for kalit, qiymat in talaba.items():
     print(f"Kalit: {kalit}")
     print(f"Qiymat: {qiymat}")
 
-
 #2
 telefonlar = {
     'ali':'iphone x',
@@ -25,7 +24,6 @@ telefonlar = {
     }
 for k, q in telefonlar.items():
     print(f"{k.title()}ning telefoni {q}")
-
 
 #3 .keys() METODI faqat kalitlarni chiqaradi
 mahsulotlar = {
@@ -40,7 +38,6 @@ print('\nDo\'kondagi mahsulotlar: ')
 for mahsulot in mahsulotlar.keys():
     print(mahsulot.title())
 
-
 #4 RO'YXAT VA LUG'AT
 mahsulotlar = {
     'olma':10000,
@@ -54,12 +51,10 @@ for m in mahsulotlar:
     if m in bozorlik:
         print(f"{m.title()} {mahsulotlar[m]} so'm")
         
-
 for buyum in bozorlik:
     if buyum not in mahsulotlar:
         print(f"Kechirasiz, bizda {buyum} yo'q")
-        
-        
+         
 # LUG'AT ELEMENTLARINI TARTIB BILAN CHIQARISH
 # .sorted()
 mahsulotlar = {
@@ -72,7 +67,6 @@ mahsulotlar = {
 print("\nDo'konimizdagi mahsulotlar:")
 for mahsulot in sorted(mahsulotlar):
     print(mahsulot.title())
-    
     
 # .values() METODI faqat qiymatlarni chiqaradi
 telefonlar = {
@@ -87,8 +81,7 @@ print(telefonlar.values())
 print('\nFoydalanuvchilarning telefonlari:')
 for tel in telefonlar.values():
     print(tel)
-    
-    
+     
 # set() funksiyasidan foydalanamiz
 print("\nFoydalanuvchilarning telefonlari:")
 for tel in set(telefonlar.values()): 

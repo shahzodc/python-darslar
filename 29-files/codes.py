@@ -12,21 +12,18 @@ with open('pi.txt') as fayl:
     
 print(pi)
 
-
 # PAPKA ICHIDAGI FAYLLARNI OCHISH
 with open('data/talabalar.txt') as fayl:
     talabalar = fayl.read()
     
 print(talabalar)
 
-
 # FAYLLARNI QATORMA-QATOR O'QISH
 filename = 'data/talabalar.txt'
 with open(filename) as file:
     for line in file:
         print(line)
-
-        
+  
 # QATORLARNI RO'YXAT KO'RINISHIDA SAQLAB OLISH UCHUN .readlines() metodidan foydalanamiz
 with open(filename) as  file:
     talabalar = file.readlines()
@@ -35,7 +32,6 @@ print(talabalar)
 talabalar = [talaba.rstrip() for talaba in talabalar]     
 print(talabalar)
      
-   
 # FAYLGA MA'LUMOT YOZISH
 # YANGI FAYLGA YOZISH
 faylnomi = "new_file.txt"
@@ -49,7 +45,6 @@ with open(faylnomi,'w') as fayl:
 with open(faylnomi,'a') as fayl:
     fayl.write('Alijon Valiyev\n')
     fayl.write('2000')
-
 
 # O'ZGARUVCHILARNI FAYLDA SAQLASH
 # PICKLE FAYLGA SAQLASH

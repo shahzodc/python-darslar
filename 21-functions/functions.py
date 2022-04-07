@@ -9,14 +9,12 @@
 
 # print(summa(1,2,3,4,5,6,7))
 
-
 # # OSONROQ USULDA YARATAMIZ
 # def summa(*sonlar):
 #     """Kiritilgan sonlar yig'indisini qaytaruvchi funksiya"""
 #     return sum(sonlar)
 
 # print(summa(4,5,6,7))
-
 
 # # AGAR FUNKSIYA BIR NECHTA ARGUMENT 
 # # QABUL QILSA *args ARGUMENTI DOIM OXIRIDA YOZILADI
@@ -25,7 +23,6 @@
 #     return x+y+sum(sonlar)
 
 # print(summa(2,3,4,2,4,5,65))
-
 
 # **kwargs USULI
 def avto_info(kompaniya,model,**malumotlar):

@@ -1,4 +1,3 @@
-
 #1
 kitob = "Yoqtirgan kitobizni kiriting "
 kitob += "(to'xtatish uchun 'stop' deb yozing): "
@@ -7,8 +6,7 @@ while qiymat != 'stop': # toki qiymat stopga teng emas ekan
     qiymat = input(kitob)
     if qiymat != 'stop':
         print(qiymat)
-        
-        
+            
 #2
 savol = 'Yoshingizni kiriting: '
 while True:
@@ -27,8 +25,7 @@ while True:
     if narx==0:
         print('Sizga kirish bepul')
     else:
-        print(f"Chipta {narx} so'm")
-        
+        print(f"Chipta {narx} so'm")  
 
 #3
 savol = "Kiritilgan sonning ildizini qaytaruvchi dastur.\n"

@@ -1,5 +1,4 @@
 # # AMALIYOT
-
 # #1
 # buyurtmalar = []
 # print("Mahsulotlarni kiriting: ")
@@ -18,7 +17,6 @@
 # for mahsulot in buyurtmalar:
 #     print(mahsulot.capitalize())
     
-
 # #2 
 # print("e-bozor uchun mahsulot va ularning \
 #       narxini shakllantiruvchi dastur:")
@@ -36,7 +34,6 @@
 # for nom, narx in mahsulotlar.items():
 #     print(f"{nom.title()} {narx} so'm")
     
-
 #3
 buyurtmalar = ['olma', 'anjir', 'uzum', 'qovun']
 mahsulotlar = {'olma':20000,

@@ -6,7 +6,6 @@ if son%2!=0:
 else:
     print("Raxmat")
     
-    
 #2
 yosh = int(input("Yoshingiz nechchida? "))
 
@@ -18,7 +17,6 @@ else:
     narx = 20000
 print(f"Chipta {narx} so'm")
 
-
 #3
 x = int(input("Birinchi sonni kiriting: "))
 y = int(input("Ikkinchi sonni kiriting: "))
@@ -28,7 +26,6 @@ elif x<y:
     print(f"{x}<{y}")
 else:
     print(f"{x}>{y}")
-
 
 #4
 mahsulotlar = ['un',"yog'","sovun",'tuxum','piyoz',

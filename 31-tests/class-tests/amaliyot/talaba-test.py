@@ -21,5 +21,4 @@ class ShaxsTest(unittest.TestCase):
         shaxs1_info = "Shahzod Rahimberdiyev, Passport:FD2233441, 1998-yilda tug'ilgan"
         self.assertEqual(shaxs1_info,self.shaxs1.get_info())
         
-
 unittest.main()

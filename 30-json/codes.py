@@ -25,7 +25,6 @@ bemor_json = json.dumps(bemor, indent=4)
 print(bemor)
 print(bemor_json)
 
-
 # json.dump()
 # MA'LUMOTLARNI JSON FORMATIGA O'TKAZISH 
 # VA FAYLGA YOZISH
@@ -45,7 +44,6 @@ import json
 with open('bemor.json','w') as f:
     json.dump(bemor,f, indent=4)
 
-
 # JSONDAN PYTHONGA 
 # json.loads()
 
@@ -56,7 +54,6 @@ sonlar = json.loads(sonlar_json)
 bemor = json.loads(bemor_json)
 print(sonlar)
 print(bemor)
-
 
 # json.load()
 filename = 'bemor.json'

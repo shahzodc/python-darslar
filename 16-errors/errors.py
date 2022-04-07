@@ -16,7 +16,6 @@
 # else:
 # print("Manfiy son")
 
-
 # RUN TIME ERROR - DASTUR BAJARISHDA XATOLIK
 
 # # TypeError
@@ -44,7 +43,6 @@
 # # ZeroDivisonError
 # x, y = 50, 50
 # z = 250/(x-y) # x-y=0
-
 
 # # MANTIQIY XATOLAR
 # #1

@@ -3,13 +3,11 @@
 # def salom_ber():
 #     """Salom beruvchi funksiya"""
 #     print("Assalomu alaykum")
-    
 
 # # QIYMAT QABUL QILUVCHI FUNKSIYA
 # def salom_ber(ism):
 #     """Foydalanuvchiga salom beruvchi funksiya"""
 #     print(f"Assalomu alaykum, hurmatli {ism.title()}")
-
 
 # # DOCSTRING
 # def salom_ber(ism):
@@ -18,7 +16,6 @@
 #     print(f"Assalomu alaykum, hurmatli {ism.title()}")
     
 # print(salom_ber.__doc__) # Docstringni konsolga chiqarish
-
 
 # # ARGUMENT VA PARAMETR
 # # PARAMETRNI BIZ BIRAMIZ
@@ -40,12 +37,9 @@
 
 # toliq_ism(familiya='hakimov',ism='shahzod')
 
-
 # # STANDART QIYMAT
 # def yosh_hisobla(tugilgan_yil, joriy_yil=2022):
 #     print(f"Siz {joriy_yil-tugilgan_yil} yoshdasiz")
-
-
 
 # # FUNKSIYAGA MUROJAAT ETISHDA XATOLIKLAR
 # # 1-misol

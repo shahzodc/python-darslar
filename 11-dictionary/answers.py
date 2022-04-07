@@ -14,7 +14,6 @@ singlim = {'ism':'Sitora',
             }
 print(f"{otam},\n{onam}\n{singlim}")
 
-
 #2
 sevimli = {'shalola':'lavash',
             'shahzod':'osh',
@@ -23,7 +22,6 @@ sevimli = {'shalola':'lavash',
             'tohir':'chuchvara',
             }
 print(sevimli['shalola'], sevimli['shahzod'], sevimli['doston'])
-
 
 #3
 python = {'integer':'son',
@@ -36,7 +34,6 @@ python = {'integer':'son',
           'dictionary':"lug'at",
           }
 print(python)
-
 
 #4
 python = {'integer':'son',
@@ -51,7 +48,6 @@ python = {'integer':'son',
 soz = input("Biror so'z kiriting: ") 
 # agar so'z yo'q bo'lsa bunday so'z mavjud emas deb chiqadi
 print(python.get(soz,"Bunday so'z mavjud emas")) 
-
 
 #5
 soz = input("Biror so'z kiriting: ")

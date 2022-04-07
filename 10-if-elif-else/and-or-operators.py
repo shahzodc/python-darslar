@@ -7,7 +7,6 @@ if kun.lower()=='shanba' or kun.lower()=='yakshanba':
 else:
     print('Bugun ish kuni')
     
-    
 # AND OPERATORI
 kun = input("Bugun qanday kun? ")
 harorat = float(input('Havo harorati qanday? '))
@@ -16,13 +15,11 @@ if kun.lower()=='yakshanba' and harorat>=30:
 elif kun.lower()=='yakshanba' and harorat<30:
     print('Uyda dam olamiz')
     
-
 # BIR NECHTA SHARTLARNI KETMA-KET YOZISH
 yosh = int(input('Yoshingizni kiriting? '))
 kun = input('Bugungi kunni kiriting? ')
 if (yosh<7 or yosh>65) and kun=='chorshanba':
     print('Bugun siz uchun Muzeyga kirish bepul')
-
 
 # BOOLEAN MA'LUMOTLAR TURI  
 a = True # o'zgaruvchilarda saqlashimiz mumkin
@@ -37,7 +34,6 @@ if choy and salat: # agar mijoz choy va salat olgan bo'lsa
 elif choy or salat: # agar choy yoki salat olgan bo'lsa
     narx = narx + 5000 # narxga 5000 so'm qo'shamiz
 print(f"Jami {narx} so'm") # Yakuniy narxni chiqaramiz
-
 
 # SHARTLARNI KETMA-KET TEKSHIRISH
 narx = 15000 # mijoz 15000 so'mga ovqat oldi
@@ -64,7 +60,6 @@ if assorti: # agar assorti olsa
     narx = narx + 15000
 print(f"Jami {narx} so'm")
 
-
 # RO'YXAT TARKIBINI TEKSHIRISH
 # in OPERATORI
 menyu = ['osh','qozonkabob','shashlik','norin','somsa']
@@ -74,7 +69,6 @@ if ovqat.lower() in menyu:
 else:
     print('Afsuski, bizda bunday ovqat yo\'q')
 
-
 # not in OPERATORI
 menyu = ['osh','qozonkabob','shashlik','norin','somsa']
 ovqat = input('Nima ovqat yeysiz? ')
@@ -82,7 +76,6 @@ if ovqat.lower() not in menyu:
     print('Afsuski, bizda bunday ovqat yo\'q')
 else:
     print('Buyurtma qabul qilindi')
-
 
 # IKKI RO'YXATNI SOLISHTIRISH
 menyu = ['osh','qozonkabob','shashlik','norin','somsa']
@@ -93,24 +86,20 @@ for taom in buyurtmalar:
     else:
         print(f"Kechirasiz, menyuda {taom} yo'q")
 
-
 # RO'YXAT BO'SH EMASLIGINI TEKSHIRISH
 list1 = [1,2,3]
 len(list1)>30 # ro'yxat bo'sh emasligini tekshiramiz
 list2 = [] # bo'sh ro'yxat
 len(list2)>0  # ro'yxat bo'sh emasligini tekshiramiz
 
-
 # TEKSHIRISHNING OSON YO'LI
 list1 = [1,2,3]
 if list1: # Bu ifoda True qaytaradi, sababi list1 bo'sh emas
     print("Ro'yxatda elementlar bor")
     
-    
 # YANA BIR MISOL KO'RAMIZ
 menyu = ['osh','qozonkabob','shashlik','norin','somsa']
 buyurtmalar = ['osh','somsa','manti','shashlik']
-
 
 if buyurtmalar:
     for taom in buyurtmalar:

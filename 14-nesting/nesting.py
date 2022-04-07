@@ -28,12 +28,10 @@ for car in cars:
     
 print(f"\n{cars[0]}") # indeks orqali murojaat etamiz
 
-
 # BIROR ELEMENTGA MUROJAAT ETISH 
 print(f"\n{cars[0]['model']}")
 print(f"\n{cars[2]['rang'].title()} "
       f"{cars[2]['model']}")
-
 
 # for SIKLI YORDAMIDA BO'SH LUG'ATLAR YARATIB OLISHIMIZ HAM MUMKIN
 malibus = [] # bo'sh ro'yxat yaratdik
@@ -62,7 +60,6 @@ for malibu in malibus:
         malibu['narx']=35000 
 for malibu in malibus:
     print(malibu.values())
-    
 
 # LUG'AT ICHIDA RO'YXAT
 dasturchilar = {
@@ -77,7 +74,6 @@ for ism, tillar in dasturchilar.items():
     print(f"\n{ism.title()}: ", end='')
     for til in tillar:
         print(f'{til.upper()} ', end='')
-
 
 # LUG'AT ICHIDA LUG'AT
 hamkasblar = {

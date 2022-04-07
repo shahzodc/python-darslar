@@ -5,7 +5,6 @@
 #     uning tug'ilgan yilini hisoblaymiz"""
 #     print(f"{ism.title()} siz {2022-yosh}-yilda tug'ilgansiz")
     
-
 # #2
 # def son_yoz(son):
 #     """foydalanuvchidan olib uning kvadrati va kubini 
@@ -33,7 +32,6 @@
         
 # son_solishtir(12,12)
 
-
 # #5
 # def son_kirit(x,n):
 #     """x ning n-darajasini hisoblash"""
@@ -41,14 +39,12 @@
 
 # son_kirit(100,50)   
 
-
 # #6
 # def son_kirit(x,n=2):
 #     """x ning n-darajasini hisoblash"""
 #     print(f"{x} ning {n}-darajasi {x**n}")
 
 # son_kirit(100)   
-
 
 # #7
 # def son_bolish(son):

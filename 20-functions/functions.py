@@ -12,12 +12,10 @@ def bahola(ismlar):
 # baholar = bahola(talabalar)
 # # print(baholar)
 
-
 # # RO'YXATGA O'ZGARTIRISH KIRITISH 
 # talabalar = ['ali','vali','hasan','husan']
 # baholar = bahola(talabalar)
 # print(talabalar)
-
 
 # ASL RO'YXATGA O'ZGARTIRISH KIRITISHNING OLDINI OLISH
 talabalar = ['ali','vali','hasan','husan']

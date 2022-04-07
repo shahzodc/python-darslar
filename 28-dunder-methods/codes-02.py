@@ -28,7 +28,6 @@ class Avto:
         """Kichik yoki teng"""
         return self.narx <= boshqa_avto.narx
     
-    
 class AvtoSalon:
     """Avtosalon klassi"""
     def __init__(self,name):

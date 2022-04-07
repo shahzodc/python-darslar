@@ -6,7 +6,6 @@ print(sonlar)
 ismlar = {'valijon','alijon','boqijon'}
 print(ismlar)
 
-
 # TO'PLAM BIR XIL ELEMENTLARNI SAQLAMAYDI
 sonlar = {1,2,3,3,4,4,5,6}
 print(sonlar)
@@ -16,14 +15,12 @@ mevalar = set(mevalar)
 mevalar = list(mevalar) # ro'yxatga o'tkazish
 print(mevalar)
 
-
 # TO'PLAMGA ELEMENT QO'SHISH
 mevalar = {'anjir','olma','uzum'}
 mevalar.add('banan') # bitta element qo'shamiz
 print(mevalar)
 mevalar.update(['anor','qovun']) # birdan ortiq element qo'shamiz
 print(sorted(mevalar))
-
 
 # TO'PLAMDAN ELEMENT O'CHIRISH
 # .discard() va .remove() metodlari
@@ -39,12 +36,10 @@ print(sonlar) # kalit xatoligi deb chiqmaydi
 # sonlar.remove(7)  # to'plamda 7 yo'q
 # print(sonlar) # kalit xatoligi deb chiqadi
 
-
 # .pop() METODI TASODIFIY ELEMENTNI SUG'URIB OLADI
 sonlar = {1,2,3,4,5,6,7,8}
 son = sonlar.pop() 
 print(son)
-
 
 #  TO'PLAMLAR USTIDA AMALLAR
 A = {1,2,3,4}
@@ -54,14 +49,12 @@ print(C)
 D = A.union(B) # ikki to'plamni birlashtirish
 print(D)
 
-
 # & operatori bir xil elementlarni topadi
 # .intersection() metodi ham bir xil elementlarni topadi
 A = {1,2,3,4}
 B = {3,4,5,6}
 print(A&B) # bir xil elementlarini topish
 print(A.intersection(B)) # bir xil elementlarini topish
-
 
 # IKKI TO'PLAM ORASIDAGI FARQ
 # - operatori
@@ -70,7 +63,6 @@ A = {1,2,3,4}
 B = {3,4,5,6}
 print(A-B) # 1 va 2 A da bor B da yo'q
 print(B.difference(A)) # 5 va 6 B da bor A da yo'q
-
 
 # TO'PLAMLAR ORASIDAGI SIMMETRIK FARQ
 # ^ operatori

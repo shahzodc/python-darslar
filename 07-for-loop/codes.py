@@ -3,7 +3,6 @@ mehmonlar = ['ALI', 'Vali', 'Hasan', 'Husan', 'Olim']
 for mehmon in mehmonlar: # sikl sharti
     print(mehmon) # sikl badani
     
-
 #2 for SIKLI QANDAY ISHLAYDI
 mehmonlar = ['Ali','Vali','Hasan','Husan','Olim']
 for mehmon in mehmonlar: # sikl badani
@@ -16,7 +15,6 @@ for car in cars: # sikl sharti
     print(car.title()) # sikl badani 
 print("Ko'rganlar qilar havas") # sikldan keyingi kod
 
-
 #3 for YORDAMIDA SONLI RO'YXATLAR BILAN ISHLASH
 sonlar = list(range(1,11))
 for son in sonlar: # sikl sharti
@@ -28,7 +26,6 @@ for son in sonlar: # sikl sharti
     sonlar_kvadrati.append(son**2) # sikl badani
 print(sonlar)
 print(sonlar_kvadrati)
-
 
 #4 for va input()
 dostlar = [] # bo'sh ro'yxat

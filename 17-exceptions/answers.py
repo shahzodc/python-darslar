@@ -9,7 +9,6 @@ try:
 except:
     print("Butun son kiritmadingiz")
 
-
 # while 
 while True:
     x = (input("son kiriting: "))

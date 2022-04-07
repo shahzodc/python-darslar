@@ -18,7 +18,6 @@ def solishtir():
     
 print(solishtir())
 
-
 #3
 with open('pi.txt') as fayl:
     pi = fayl.read()
@@ -38,7 +37,6 @@ with open('yopiq_fayl','rb') as file:
     pi = pickle.load(file)
     
 print(pi)
-
 
 #4
 while True:

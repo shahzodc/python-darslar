@@ -6,11 +6,9 @@ b=6
 print(a==b) # a b ga tengmi?
 print(a==(b-1))
 
-
 # MATNLARNI TAQQOSLASH
 print("anver"=="Anvar") # matnlarni taqqoslash
 print(10*2<2**10) # Sonlarni taqqoslash
-
 
 # TAQQOSLASH QANDAY ISHLASHINI TEKSHIRIB KO'RISHAMIZ
 ism = 'ahad'

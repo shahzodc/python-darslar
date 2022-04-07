@@ -16,7 +16,6 @@ print("Do'stlaringiz ro'yxati:")
 for ism in ismlar:
     print(ism.title())
     
-    
 # while YORDAMIDA LUG'ATNI TO'LDIRISH
 print("Do'stlaringiz yoshini saqlaymiz.")
 dostlar = {}
@@ -33,14 +32,12 @@ while ishora:
 for ism, yosh in dostlar.items():
     print(f"{ism.title()} {yosh} yoshda")
         
-    
 # RO'YXAT ELEMENTLARINI O'CHIRISH 
 cars = ['lacetti','nexia','toyota','nexia','malibu','nexia']
 car = 'nexia'
 while car in cars:
     cars.remove(car)
 print(cars)
-
 
 # RO'YXATDAN RO'YXATGA ELEMENT KO'CHIRISH
 talabalar = ['hasan', 'husan', 'olim', 'botir']

@@ -4,7 +4,6 @@ while son<=10: # toki son 5 dan kichik yoki teng ekan
     print(son, end=' ') # sonni konsolga chiqaramiz va 
     son = son+1 # songa 1 ni qo'shamiz
   
-  
 #2
 print('Kiritilgan sonning kvadratini qaytaruvchi dastur.')
 savol = "Istalgan son kiriting "
@@ -14,7 +13,6 @@ while qiymat != 'exit': # toki qiymat exitga teng ekan
     qiymat = input(savol)
     if qiymat != 'exit':
         print(float(qiymat)**2)
-
 
 #3 ISHORA - FLAG
 print("Kiritilgan sonning kvadratini qaytaruvchi dastur.")
@@ -27,7 +25,6 @@ while ishora: # toki ishora=True ekan
         ishora = False
     else:
         print(float(qiymat)**2)
-
 
 #4 break OPERATORI
 print('Kiritilgan sonning kvadratini qaytaruvchi dastur.')
@@ -48,14 +45,12 @@ for son in sonlar:
         break
     print(f"{son} ning kvadrati {son**2} ga teng")
 
-
 #3 continue OPERATORI qadam tashlab o'tib ketadi
 sonlar = list(range(1,11))
 for son in sonlar:
     if son == 5: # son 5 ga teng bo'lsa, sikl boshiga qaytadi
         continue
     print(f"{son} ning kvadrati {son**2} ga teng")
-
 
 # while sikliga ham misol ko'ramiz
 son = 0 
@@ -65,7 +60,6 @@ while son<10:
         continue
     else: # aks holda (juft bo'lsa)
         print(son, end=' ')
-
 
 # # ABADIY SIKL TUZOG'I
 #1

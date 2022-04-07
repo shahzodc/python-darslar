@@ -16,7 +16,6 @@ print(data_json)
 with open('data.json','w') as f:
     json.dump(data,f, indent=4)
     
-
 #2 
 talaba_json = """{"ism":"Hasan","familiya":"Husanov","tyil":2000}"""
 talaba = json.loads(talaba_json)
