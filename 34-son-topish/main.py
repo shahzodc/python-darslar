@@ -1,4 +1,4 @@
-import sontop as f
+from sontop import play
 
-print("Keling o'ylagan sonni topishni o'ynaymiz")
-f.play(10)
+play()
+
