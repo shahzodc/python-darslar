@@ -1,4 +1,4 @@
-# print FUNKSIYASI
+# print
 
 print("HeLLo World")
 print('Assalomu alaykum')
