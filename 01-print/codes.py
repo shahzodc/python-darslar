@@ -1,3 +1,5 @@
+# print FUNKSIYASI
+
 print("HeLLo World")
 print('Assalomu alaykum')
 print('Xayrli tong')
