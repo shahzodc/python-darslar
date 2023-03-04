@@ -1,4 +1,4 @@
-# AMALIYOT
+# AMALIYOT!
 print('"Nexia", "Tico", "Damas"', 'ko\'rganlar qilar havas')
 
 # 5 ning 4-darajasini toping
