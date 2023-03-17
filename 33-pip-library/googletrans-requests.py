@@ -9,5 +9,3 @@ print(advice)
 translator = googletrans.Translator()
 tarjima = translator.translate(advice, dest="uz")
 print(tarjima.text)
-
-
