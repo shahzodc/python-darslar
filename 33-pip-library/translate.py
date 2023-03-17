@@ -22,10 +22,3 @@ print(tarjima_uz.text)
 text_uz = "Tashkent - O'zbekistonning poytaxti"
 tarjimaa_en = tarjimon.translate(text_uz,src='uz',dest='en')
 print(tarjimaa_en.text)
-
-
-
-
-
-
-
