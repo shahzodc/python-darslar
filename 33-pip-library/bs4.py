@@ -11,9 +11,3 @@ soup = BeautifulSoup(r.text, 'html.parser')
 news = soup.find_all(class_="news-title")
 # eng birinchi yangiliklarni konsolga chiqaramiz
 print(news[0].text)
-
-
-
-
-
-
