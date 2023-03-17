@@ -10,13 +10,3 @@ def doira():
     per = 2*pi*r
     put_text(f"Doira yuzi {yuza}ga,\nperimetri {per}ga teng")
 doira()
-
-
-
-
-
-
-
-
-
-
