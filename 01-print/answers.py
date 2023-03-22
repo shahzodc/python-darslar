@@ -1,7 +1,7 @@
 # AMALIYOT
 print('"Nexia", "Tico", "Damas"', 'ko\'rganlar qilar havas')
 
-# 5 ning 4-darajasini toping.
+# 5 ning 4-darajasini toping
 print("5 ning 4-darajasi", 5**4)
 
 # 22 ni 4 ga bo'lganda qancha qoldiq qoladi?
