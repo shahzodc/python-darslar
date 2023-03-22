@@ -1,4 +1,4 @@
-# print FUNKSIYASI.
+# print FUNKSIYASI
 
 print("HeLLo World")
 print('Assalomu alaykum')
@@ -40,41 +40,3 @@ print(2*5*3.14159)
 print("Assalomu alaykum") # ushbu qator bajariladi
 # Keyingi qator esa bajariladi
 # print("Mening ismim Anvar")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
