@@ -1,5 +1,5 @@
 # AMALIYOT
-# "Hello World" matnini yangi o'zgaruvchiga yuklaymiz
+# "Hello World" matnini yangi o'zgaruvchiga yuklaymiz.
 salom = "Hello World"
 print(salom)
 
