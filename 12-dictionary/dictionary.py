@@ -1,4 +1,4 @@
-# LUG'ATLAR BILAN ISHLASH.
+# LUG'ATLAR BILAN ISHLASH
 
 # .items() METODI kalit qiymatlarni chiqaradi
 #1
@@ -86,40 +86,3 @@ for tel in telefonlar.values():
 print("\nFoydalanuvchilarning telefonlari:")
 for tel in set(telefonlar.values()): 
     print(tel)
-    
-    
-    
-    
-    
-
-    
- 
-   
-
-
-
-
-
-        
-
-
-
-        
-        
-        
-        
-        
-    
-    
-    
-    
-    
-    
-    
-
-
-
-
-
-
-
