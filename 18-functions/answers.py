@@ -54,22 +54,3 @@
 #             print(f"{son} soni {n} ga qoldiqsiz bo'linadi")
             
 # son_bolish(10)
-    
-
-
-
-    
-    
-
-
-
-    
-    
-
-
-
-        
-    
-    
-
-    
