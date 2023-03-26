@@ -108,22 +108,3 @@
 #     return sonlar
 
 # print(fibonacci(10))
-
-
-
-
-
-
-
-
-
-
-  
-    
-    
-    
-
-
-
-
-
