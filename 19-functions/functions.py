@@ -91,22 +91,3 @@ for avto in avtolar:
     else:
         narx = "No'malum"
     print(f"{avto['rang'].title()} {avto['model'].title()}, {korobka} karobka. Narxi: {narx}")
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
