@@ -1,4 +1,4 @@
-# # # EXCEPTIONS
+# # EXCEPTIONS
 
 # # try-except
 # yosh = input("Yoshingizni kiriting: ")
@@ -105,39 +105,3 @@
 #         yosh = int(yosh)
 #         break
 # print(f"Siz {2021-yosh}-yilda tug'ilgansiz")
-
-
-
-
-
-    
-    
-    
-
-
-
-
-
-
- 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-
-
-
-
