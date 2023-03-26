@@ -18,10 +18,3 @@ while True:
         y = int(y) 
         break
 print(x, '/', y, '=', x/y)
-
-
-
-    
-
-
-
