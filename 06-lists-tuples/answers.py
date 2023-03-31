@@ -1,4 +1,4 @@
-# # AMALIYOT
+# # AMALIYOT.
 #1
 countries = ['Uzbekistan', 'Russia', 'Japan', 'Poland']
 print("Elementlar soni:", len(countries))
@@ -44,18 +44,3 @@ nonushta = list(nonushta) # oddiy ro'yxatga aylantirdik
 nonushta[1] = "qaymoq va non" # element qo'shdik
 nonushta = tuple(nonushta) # o'zgarmas ro'yxatga aylantirdik
 print(nonushta)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
