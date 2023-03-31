@@ -1,4 +1,4 @@
-# # AMALIYOT.
+# # AMALIYOT
 #1
 countries = ['Uzbekistan', 'Russia', 'Japan', 'Poland']
 print("Elementlar soni:", len(countries))
